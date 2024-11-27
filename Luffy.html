@@ -5,6 +5,19 @@
     </head>
     <body onload="alert('The One Piece Webpage Has Loaded!')">
         <center>
+            script type="text/javascript">
+            var username = prompt("Create a username:");  // User sets a username
+            var password = prompt("Create a password:");  // User sets a password
+
+            var loginUsername = prompt("Enter your username to login:");
+            var loginPassword = prompt("Enter your password to login:");
+
+            if (loginUsername === username && loginPassword === password) {
+                alert("Login successful! Welcome " + username + "!");
+            } else {
+                alert("Invalid username or password. Please try again.");
+            }
+        </script>
             <h1>One Piece</h1>
             <h3>One Piece is the name the world gave to all the treasure gained by the Pirate King Gol D. Roger.At least a portion of it once belonged to Joy Boy during<br> the Void Century.The treasure is said to be of unimaginable value, and is currently located on Laugh<br> Tale, the final island of the Grand Line.</h3>
             <img src="https://staticg.sportskeeda.com/editor/2022/02/83bd5-16456496410457-1920.jpg" width="500" height="300">
